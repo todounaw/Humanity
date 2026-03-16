@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>H(N, K) | La Fonction Humanity - Moulaye Ismaël Sow</title>
+    <title>H(N, K) | The Humanity Function - Moulaye Ismaël Sow</title>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@300;400;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
@@ -98,7 +98,6 @@
             color: var(--accent);
         }
 
-        /* Graphe de simulation stylisé en CSS */
         .graph-container {
             height: 400px;
             border-left: 2px solid #555;
@@ -152,65 +151,102 @@
 </head>
 <body>
 
-<div class="section-card" style="border-left: 5px solid #ffcc00; background: #1a1a10;">
-        <h2 style="color: #ffcc00;">L'Énoncé de Sow : Comprendre par l'Intuition</h2>
-        <p style="font-size: 1.2em; font-style: italic; line-height: 1.9;">
-            "Même si nous utilisions chaque mot de chaque dictionnaire, chaque formule de chaque livre de physique, et chaque symbole de chaque langage imaginaire pour décrire un nombre, <strong>H(N, K)</strong> est le tout premier nombre qui resterait silencieux, tapi juste derrière la frontière de notre intelligence."
-        </p>
-        <p>
-            En termes simples : <strong>H(N, K)</strong> est le "mur" où notre langage s'arrête. C'est le plus petit nombre que nous sommes physiquement et logiquement incapables de nommer avec nos outils actuels. Si nous devenons plus intelligents ou plus puissants (Type K supérieur), nous abattons ce mur, mais un nouveau mur, situé beaucoup plus loin, se dresse instantanément. 
-        </p>
-    </div>
-
 <header>
     <h1>H(N, K)</h1>
-    <div class="author">L'Horizon de Moulaye Ismaël Sow</div>
+    <div class="author">The Sow Horizon - Moulaye Ismaël Sow</div>
 </header>
 
 <div class="container">
     
-    <div class="section-card">
-        <h2>I. Spécifications Mathématiques Rigoureuses</h2>
-        <p>Soit \( K \) le type civilisationnel et \( N \) la longueur maximale de la chaîne de description.</p>
-        
-        <div class="math-block">
-            <strong>1. Alphabet Conceptuel \( \Sigma_K \) :</strong><br>
-            L'ensemble des briques logiques et sémantiques accessibles à une intelligence de type \( K \).<br><br>
-            <strong>2. Espace des Descriptions \( \mathcal{D}(N, K) \) :</strong><br>
-            \( \mathcal{D}(N, K) = \{ \phi \in \Sigma_K^* \mid |\phi| \le N \} \)<br><br>
-            <strong>3. La Fonction Humanity :</strong><br>
-            \[ H(N, K) = \min \{ n \in \mathbb{N} \mid \forall \phi \in \mathcal{D}(N, K), \text{Val}(\phi) \neq n \} \]
-        </div>
-        <p>Cette définition établit que \( H \) est le premier entier naturel "fuyant" tout système de désignation compact au sein d'une ontologie donnée.</p>
+    <div class="section-card" style="border-left: 5px solid #ffcc00; background: #1a1a10;">
+        <h2 style="color: #ffcc00;">The Sow Statement: Intuitive Understanding</h2>
+        <p style="font-size: 1.2em; font-style: italic; line-height: 1.9;">
+            "Even if we used every word in every dictionary, every formula in every physics book, and every symbol in every imaginary language to describe a number, <strong>H(N, K)</strong> would be the very first number that remains silent, hiding just behind the border of our intelligence."
+        </p>
+        <p>
+            In simple terms: <strong>H(N, K)</strong> is the "wall" where our language stops. It is the smallest integer that we are physically and logically unable to name with our current tools. If we evolve (higher Type K), we break this wall, but a new one appears instantly, much further away.
+        </p>
     </div>
 
     <div class="section-card">
-        <h2>II. Visualisation de la Croissance</h2>
-        <p>Contrairement aux fonctions classiques, \( H(N, K) \) présente des <strong>discontinuités ontologiques</strong> (sauts de civilisation).</p>
+        <h2>I. Formal Mathematical Specifications</h2>
+        <p>Let \( K \) be the civilizational type and \( N \) the maximum description length constraint.</p>
+        
+        <div class="math-block">
+            <strong>1. Conceptual Alphabet \( \Sigma_K \) :</strong><br>
+            The set of all logical and semantic building blocks accessible to a Type \( K \) intelligence.<br><br>
+            <strong>2. Description Space \( \mathcal{D}(N, K) \) :</strong><br>
+            \( \mathcal{D}(N, K) = \{ \phi \in \Sigma_K^* \mid |\phi| \le N \} \)<br><br>
+            <strong>3. The Humanity Function :</strong><br>
+            \[ H(N, K) = \min \{ n \in \mathbb{N} \mid \forall \phi \in \mathcal{D}(N, K), \text{Val}(\phi) \neq n \} \]
+        </div>
+        <p>This definition establishes that \( H \) is the first natural number that "escapes" any compact designation system within a given ontology.</p>
+    </div>
+
+    <div class="section-card">
+        <h2>II. Growth Visualization</h2>
+        <p>Unlike classical functions, \( H(N, K) \) exhibits <strong>ontological discontinuities</strong> (civilizational leaps).</p>
         
         <div class="graph-container">
-            <span class="label-y">Valeur de H(N, K)</span>
-            <span class="label-x">Complexité N + Évolution K</span>
+            <span class="label-y">H(N, K) Value</span>
+            <span class="label-x">Complexity N + Evolution K</span>
             <svg class="curve-h" viewBox="0 0 100 100" preserveAspectRatio="none">
                 <path d="M0,100 Q10,95 20,80 L20,40 M20,40 Q30,35 50,30 L50,10 M50,10 L70,5" stroke="#00d4ff" stroke-width="1" fill="none" />
             </svg>
             <div class="jump-point" style="bottom: 60%; left: 20%;"></div>
             <div class="jump-point" style="bottom: 90%; left: 50%;"></div>
-            <p style="position: absolute; left: 22%; bottom: 62%; font-size: 0.7em; color: var(--accent);">Saut Type I → II</p>
-            <p style="position: absolute; left: 52%; bottom: 92%; font-size: 0.7em; color: var(--accent);">Saut Type II → III</p>
+            <p style="position: absolute; left: 22%; bottom: 62%; font-size: 0.7em; color: var(--accent);">Type I → II Jump</p>
+            <p style="position: absolute; left: 52%; bottom: 92%; font-size: 0.7em; color: var(--accent);">Type II → III Jump</p>
         </div>
-        <p><em>Le graphe illustre les phases d'explosion où de nouvelles découvertes sémantiques rendent les nombres géants triviaux, propulsant H vers des ordres de grandeur méta-transcendants.</em></p>
+        <p><em>The graph illustrates the explosive phases where new semantic discoveries make giant numbers trivial, propelling H toward meta-transcendental magnitudes.</em></p>
     </div>
 
     <div class="section-card">
-        <h2>III. Table des Ordres de Grandeur Hypothétiques</h2>
+        <h2>III. Theoretical Magnitude Comparison</h2>
         <table>
             <thead>
                 <tr>
                     <th>Configuration</th>
-                    <th>Valeur Estimée de \( H \)</th>
-                    <th>Limite Franchie</th>
+                    <th>Estimated Value of \( H \)</th>
+                    <th>Barrier Crossed</th>
                 </tr>
             </thead>
             <tbody>
-  
+                <tr>
+                    <td>\( H(10^2, 0.7) \) <span class="badge">Current</span></td>
+                    <td>\(\sim 10^{100}\) (Rayo's)</td>
+                    <td>Standard Human Language</td>
+                </tr>
+                <tr>
+                    <td>\( H(10^3, 1.0) \)</td>
+                    <td>\( > TREE(3) \)</td>
+                    <td>Planetary Combinatorics</td>
+                </tr>
+                <tr>
+                    <td>\( H(10^6, 2.0) \)</td>
+                    <td>\( \gg BB(n) \)</td>
+                    <td>Non-Computable Stellar Logic</td>
+                </tr>
+                <tr>
+                    <td>\( H(N, 3.0) \)</td>
+                    <td>\( \Omega \)-Indeterminate</td>
+                    <td>Absolute Galactic Horizon</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="section-card">
+        <h2>IV. Impact of the Sow Discovery</h2>
+        <p>The introduction of the variable \( K \) transforms googology from an abstract science into a <strong>prospective</strong> one. It postulates that the "largest number" is not a destination, but a reflection of our power to name reality.</p>
+    </div>
+
+    <footer>
+        <p>Official Research Document - Moulaye Ismaël Sow © 2026</p>
+        <p>All reproduction must cite the original author and the semantic definition of H(N, K).</p>
+    </footer>
+
+</div>
+
+</body>
+</html>
